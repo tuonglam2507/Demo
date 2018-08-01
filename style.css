@@ -1,0 +1,837 @@
+﻿#body{
+background: LightSteelBlue;
+}
+
+#wrap{
+background: url(Img/xanh2.jpg);
+width: 810px;
+margin: 0px auto;
+padding: 4px 0px 5px 0px;
+border-radius: 10px;
+
+
+}
+#title{
+background: url(Img/Banner.jpg);
+width:800px;
+height: 266px;
+margin: 0px auto;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+
+}
+
+#menu{
+background: skyblue;
+float: top;
+width:800px;
+font-family:"Verdana",Sans-serif;
+font-size:14px;
+margin: 0px auto;
+text-align: center;
+margin: auto auto 0px auto;
+}
+#menu ul{
+list-style-type: none;
+width: 198px;
+margin: 0px 0px 0px 1px ;
+padding: 0px 0px 0px 0px;
+height: 25px;
+
+}
+#menu > ul {
+width:800px;
+}
+#menu ul li{
+border: 1px dotted white;
+width: 198px;
+float: left;
+background: url(Img/xanhnen2.png);
+border-style: dotted;
+height: 25px;
+}
+#menu ul li ul{
+margin: 0px;
+padding: 0px;
+display: none;
+
+}
+#menu ul li:hover ul{
+display: block;
+ position: absolute;
+
+}
+#menu ul li a{
+text-decoration: none;
+color: White ;
+}
+#menu ul li ul li {
+width: 100%;
+text-align: justify;
+}
+
+#content{
+width:800px;
+background: white;
+margin: 0px auto;
+padding: 1px 0px 2px 0px;
+}
+
+#content h2{
+text-align: center;
+}
+
+#content table{
+margin: 0px auto;
+}
+
+#login{
+width:252px;
+height: 183px;
+background: url(Img/xanhnen2.png);
+margin: 10px 10px 5px 260px;
+padding: 2px 0px 22px 0px;
+border-radius: 8px;
+}
+#login table{
+width:250px;
+background: white;
+margin: 10px 10px 5px 4px;
+padding: 2px 0px 22px 2px;
+border-radius: 8px;
+}
+
+#login h2{
+color: white;
+text-align: center;
+margin: 0px auto;
+padding: 5px 0px 5px 0px;
+}
+#xinchao{
+background:white;
+height: 26px;
+width:800px;
+margin: 0px auto;
+color: blue;
+}
+#xinchao table{
+width: 330px;
+text-align: center;
+font-family:"Times New Roman", Times, serif;
+font-style:oblique;
+font-size:16px;
+margin: 2px 0px 2px 470px;
+color: blue;
+}
+#xinchao table a{
+text-decoration: none;
+color: blue;
+}
+#login1{
+height: 150px;
+width:250px;
+background: white;
+margin: 0px 3px 5px 1px;
+}
+
+
+#login1 table{
+width:250px;
+margin: 0px 3px 5px 0px;
+padding: 0px 5x 10px;
+text-align: justify;
+}
+
+#login1 table{
+color: black;
+}
+
+
+#end{
+width: 800px;
+height: 85px;
+margin: 0px auto;
+background: white;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+#end table{
+width: 800px;
+margin: 1px 2px;
+padding: 2px 5px 0px 8px;
+text-align: justify;
+}
+
+#dangnhap{
+background:white;
+height: 26px;
+width:800px;
+margin: 0px auto;
+color: blue;
+}
+#dangnhap table{
+width: 200px;
+text-align: center;
+font-family:"Times New Roman", Times, serif;
+font-style:oblique;
+font-size:16px;
+margin: 2px 0px 2px 600px;
+color: blue;
+}
+#dangnhap table a{
+text-decoration: none;
+color: blue;
+}
+#qlgiangday {
+width:700px;
+background: white;
+margin: 10px 0px 0px 30px;
+padding: 10px 0px 0px 0px;
+border:2px solid white;
+border-radius: 10px;
+float:center;
+}
+#qlgiangday table{
+width: 700px;
+margin: 0px auto;
+padding: 0px auto;
+border-top: 1px solid blue;
+border-left: 2px solid blue;
+border-top-right-radius: 10px;
+}
+#qlgiangday td:hover{
+background-color: pink;
+}
+#qlgiangday td{
+margin: 0px 0px 0px 0px;
+padding: 3px 0px 0px 0px;
+border-right: 2px solid blue;
+border-top-right-radius: 10px;
+text-align: justify;
+}
+#qlgiangday td a{
+color:blue;
+font-family:"Verdana",Sans-serif;
+text-decoration: none;
+font-size:14px;
+
+}
+#capnhattphuhuynh{
+width:732px;
+margin: 20px 0px 30px 30px;
+background: url(Img/xanhnen2.png);
+text-align: center;
+border-radius: 10px;
+height: 244px;
+}
+#capnhattphuhuynh table{
+width:355px;
+margin: 2px auto 0px auto;
+padding:0px 0px 5px 0px;
+background: white;
+border-radius: 10px;
+}
+#capnhattphuhuynh td{
+padding:5px 0px 5px 5px;
+}
+
+#capnhattphuhuynh  h2{
+color: white;
+font-family:"Verdana",Sans-serif;
+text-decoration: none;
+font-size:16px;
+margin: 5px 0px 5px 3px;
+padding:5px 0px 5px 5px;
+}
+#capnhatthocsinh {
+width:732px;
+margin: 20px 0px 30px 30px;
+background: url(Img/xanhnen2.png);
+text-align: center;
+border-radius: 10px;
+height: 250px;
+}
+#capnhatthocsinh table{
+width:355px;
+margin: 2px auto 0px auto;
+padding:0px 0px 5px 0px;
+background: white;
+border-radius: 10px;
+}
+#capnhatthocsinh td{
+padding:5px 0px 5px 5px;
+}
+
+#capnhatthocsinh h2{
+color: white;
+font-family:"Verdana",Sans-serif;
+text-decoration: none;
+font-size:16px;
+margin: 5px 0px 5px 3px;
+padding:5px 0px 5px 5px;
+}
+#capnhatdslop{
+width:390px;
+margin: 20px 0px 30px 180px;
+background: url(Img/xanhnen2.png);
+text-align: center;
+border-radius: 10px;
+height: 138px;
+}
+#capnhatdslop table{
+width:370px;
+margin: 2px auto 0px auto;
+padding:0px 0px 5px 0px;
+background: white;
+border-radius: 10px;
+}
+#capnhatdslop td{
+padding:5px 0px 5px 5px;
+}
+
+#capnhatdslop h2{
+color: white;
+font-family:"Verdana",Sans-serif;
+text-decoration: none;
+font-size:16px;
+margin: 5px 0px 5px 3px;
+padding:5px 0px 5px 5px;
+}
+#capnhatdslop2{
+width:500px;
+background: white;
+margin: 10px 0px 0px 120px;
+padding: 0px auto;
+background: url(Img/xanhnen2.png);
+height:30px;
+}
+#capnhatdslop2 th:hover{
+background-color: pink;
+}
+#capnhatdslop2 table{
+width:500px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+border-collapse: collapse;
+}
+
+#capnhatdslop2 td{
+margin: 0px 0px 0px 1px;
+padding: 5px 0px 5px 0px;
+text-align: center;
+}
+#capnhatdslop2  h2{
+text-decoration: none;
+color: white;
+font-family:"Verdana",Sans-serif;
+text-decoration: none;
+font-size: 16px;
+margin: 0px 0px 0px 1px;
+padding: 3px 0px 3px 0px;
+text-align: center;
+}
+
+#capnhatdslop3 {
+width:500px;
+background: white;
+margin: 2px 0px 0px 120px;
+padding: 0px auto;
+background: white;
+}
+
+#capnhatdslop3  table{
+width:500px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+border-collapse: collapse;
+background: white;
+
+}
+#capnhatdslop3 th:hover{
+background-color: pink;
+}
+#capnhatdslop3 td{
+margin: 0px 0px 0px 1px;
+padding: 5px 0px 5px 0px;
+border:1px solid gray;
+}
+#capnhatdslop3  th{
+margin: 0px 0px 0px 1px;
+padding: 5px 0px 5px 0px;
+border:1px solid gray;
+}
+#capnhattphuhuynh1{
+width:355px;
+margin: 0px 0px 0px 0px;
+padding:0px 0px 0px 0px;
+}
+#capnhattphuhuynh1 table{
+width:355px;
+margin: 0px 0px 5px 0px;
+padding:0px 0px 5px 0px;
+}
+#capnhattphuhuynh1 td{
+padding:0px 0px 10px 5px;
+}
+#nhacnho{
+width:728px;
+background: white;
+margin: 2px 0px 0px 2px;
+padding: 0px auto;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+#nhacnho table{
+width:726px;
+background: white;
+margin: 0px 0px 0px 2px;
+padding: 0px auto;
+text-align: center;
+}
+#nhacnho h2{
+color: red;
+}
+#capnhatttphuhuynh2{
+width:780px;
+background: white;
+margin: 10px 0px 0px 8px;
+padding: 0px auto;
+background: url(Img/xanhnen2.png);
+height:30px;
+}
+#capnhatttphuhuynh2 th:hover{
+background-color: pink;
+}
+#capnhatttphuhuynh2 table{
+width:780px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+border-collapse: collapse;
+}
+
+#capnhatttphuhuynh2 td{
+margin: 0px 0px 0px 1px;
+padding: 5px 0px 5px 0px;
+text-align: center;
+}
+#capnhatttphuhuynh2  h2{
+text-decoration: none;
+color: white;
+font-family:"Verdana",Sans-serif;
+text-decoration: none;
+font-size: 16px;
+margin: 0px 0px 0px 1px;
+padding: 3px 0px 3px 0px;
+text-align: center;
+}
+#capnhatttphuhuynh3{
+width:780px;
+background: white;
+margin: 2px 0px 0px 8px;
+padding: 0px auto;
+background: white;
+}
+#capnhatttphuhuynh3 th:hover{
+background-color: pink;
+}
+#capnhatttphuhuynh3 table{
+width:780px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+border-collapse: collapse;
+background: white;
+
+}
+
+#capnhatttphuhuynh3 td{
+margin: 0px 0px 0px 1px;
+padding: 5px 0px 5px 0px;
+border:1px solid gray;
+}
+#capnhatttphuhuynh3 th{
+margin: 0px 0px 0px 1px;
+padding: 5px 0px 5px 0px;
+border:1px solid gray;
+}
+#capnhatqlcanbo {
+width:732px;
+margin: 20px 0px 30px 30px;
+background: url(Img/xanhnen2.png);
+text-align: center;
+border-radius: 10px;
+height: 173px;
+}
+#capnhatqlcanbo  table{
+width:355px;
+margin: 2px auto 0px auto;
+padding:0px 0px 5px 0px;
+background: white;
+border-radius: 10px;
+}
+#capnhatqlcanbo  td{
+padding:5px 0px 5px 5px;
+}
+
+#capnhatqlcanbo h2{
+color: white;
+font-family:"Verdana",Sans-serif;
+text-decoration: none;
+font-size:16px;
+margin: 5px 0px 5px 3px;
+padding:5px 0px 5px 5px;
+}
+#qlbantru{
+width:600px;
+background: white;
+margin: 10px 0px 0px 90px;
+padding: 10px 0px 0px 0px;
+border:2px solid white;
+border-radius: 10px;
+float:center;
+}
+#qlbantru table{
+width:600px;
+margin: 0px auto;
+padding: 0px auto;
+border-top: 1px solid blue;
+border-left: 2px solid blue;
+border-top-right-radius: 10px;
+}
+#qlbantru td:hover{
+background-color: pink;
+}
+#qlbantru td{
+margin: 0px 0px 0px 0px;
+padding: 3px 0px 0px 0px;
+border-right: 2px solid blue;
+border-top-right-radius: 10px;
+text-align: justify;
+}
+#qlbantru td a{
+color:blue;
+font-family:"Verdana",Sans-serif;
+text-decoration: none;
+font-size:14px;
+
+}
+#qlphi{
+width:550px;
+background: white;
+margin: 10px 0px 0px 90px;
+padding: 10px 0px 0px 0px;
+border:2px solid white;
+border-radius: 10px;
+float:center;
+}
+#qlphi table{
+width:550px;
+margin: 0px auto;
+padding: 0px auto;
+border-top: 1px solid blue;
+border-left: 2px solid blue;
+border-top-right-radius: 10px;
+}
+#qlphi td:hover{
+background-color: pink;
+}
+#qlphi td{
+margin: 0px 0px 0px 0px;
+padding: 3px 0px 0px 0px;
+border-right: 2px solid blue;
+border-top-right-radius: 10px;
+text-align: justify;
+}
+#qlphi td a{
+color:blue;
+font-family:"Verdana",Sans-serif;
+text-decoration: none;
+font-size:14px;
+}
+
+#capnhattp{
+width:385px;
+margin: 20px 0px 30px 180px;
+background: url(Img/xanhnen2.png);
+text-align: center;
+border-radius: 10px;
+height: 175px;
+}
+#capnhattp table{
+width:370px;
+margin: 2px auto 0px auto;
+padding:0px 0px 5px 0px;
+background: white;
+border-radius: 10px;
+}
+#capnhattp td{
+padding:5px 0px 5px 5px;
+}
+
+#capnhattp h2{
+color: white;
+font-family:"Verdana",Sans-serif;
+text-decoration: none;
+font-size:16px;
+margin: 5px 0px 5px 3px;
+padding:5px 0px 5px 5px;
+}
+#capnhattp2{
+width:500px;
+background: white;
+margin: 10px 0px 0px 120px;
+padding: 0px auto;
+background: url(Img/xanhnen2.png);
+height:30px;
+}
+#capnhattp2 th:hover{
+background-color: pink;
+}
+#capnhattp2 table{
+width:500px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+border-collapse: collapse;
+}
+
+#capnhattp2 td{
+margin: 0px 0px 0px 1px;
+padding: 5px 0px 5px 0px;
+text-align: center;
+}
+#capnhattp2  h2{
+text-decoration: none;
+color: white;
+font-family:"Verdana",Sans-serif;
+text-decoration: none;
+font-size: 16px;
+margin: 0px 0px 0px 1px;
+padding: 3px 0px 3px 0px;
+text-align: center;
+}
+
+#capnhattp3 {
+width:500px;
+background: white;
+margin: 2px 0px 0px 120px;
+padding: 0px auto;
+background: white;
+}
+
+#capnhattp3  table{
+width:500px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+border-collapse: collapse;
+background: white;
+
+}
+#capnhattp3 th:hover{
+background-color: pink;
+}
+#capnhattp3 td{
+margin: 0px 0px 0px 1px;
+padding: 5px 0px 5px 0px;
+border:1px solid gray;
+}
+#capnhattp3  th{
+margin: 0px 0px 0px 1px;
+padding: 5px 0px 5px 0px;
+border:1px solid gray;
+}
+
+#capnhatphieu{
+width:415px;
+margin: 20px 0px 30px 200px;
+background: url(Img/xanhnen2.png);
+text-align: center;
+border-radius: 10px;
+height: 250px;
+}
+#capnhatphieu table{
+width:400px;
+margin: 2px auto 0px auto;
+padding:0px 0px 5px 0px;
+background: white;
+border-radius: 10px;
+}
+#capnhatphieu td{
+padding:5px 0px 5px 5px;
+}
+
+#capnhatphieu h2{
+color: white;
+font-family:"Verdana",Sans-serif;
+text-decoration: none;
+font-size:16px;
+margin: 5px 0px 5px 3px;
+padding:5px 0px 5px 5px;
+}
+#capnhatphieu2{
+width:500px;
+background: white;
+margin: 10px 0px 0px 80px;
+padding: 0px auto;
+background: url(Img/xanhnen2.png);
+height:30px;
+}
+#capnhatphieu2 th:hover{
+background-color: pink;
+}
+#capnhatphieu2 table{
+width:500px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+border-collapse: collapse;
+}
+
+#capnhatphieu2 td{
+margin: 0px 0px 0px 1px;
+padding: 5px 0px 5px 0px;
+text-align: center;
+}
+#capnhatphieu2  h2{
+text-decoration: none;
+color: white;
+font-family:"Verdana",Sans-serif;
+text-decoration: none;
+font-size: 16px;
+margin: 0px 0px 0px 1px;
+padding: 3px 0px 3px 0px;
+text-align: center;
+}
+
+#capnhatphieu3 {
+width:500px;
+background: white;
+margin: 2px 0px 0px 80px;
+padding: 0px auto;
+background: white;
+}
+
+#capnhatphieu3  table{
+width:500px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+border-collapse: collapse;
+background: white;
+
+}
+#capnhatphieu3 th:hover{
+background-color: pink;
+}
+#capnhatphieu3 td{
+margin: 0px 0px 0px 1px;
+padding: 5px 0px 5px 0px;
+border:1px solid gray;
+}
+#capnhatphieu3  th{
+margin: 0px 0px 0px 1px;
+padding: 5px 0px 5px 0px;
+border:1px solid gray;
+}
+
+#capnhatphieuthu{
+width:780px;
+margin: 20px 0px 30px 2px;
+background: url(Img/xanhnen2.png);
+text-align: center;
+border-radius: 10px;
+height: 212px;
+}
+#capnhatphieuthu table{
+width:400px;
+margin: 2px auto 0px auto;
+padding:0px 0px 5px 0px;
+background: white;
+border-radius: 10px;
+}
+#capnhatphieuthu td{
+padding:5px 0px 5px 5px;
+}
+
+#capnhatphieuthu h2{
+color: white;
+font-family:"Verdana",Sans-serif;
+text-decoration: none;
+font-size:16px;
+margin: 5px 0px 5px 3px;
+padding:5px 0px 5px 5px;
+}
+
+#capnhatphieuthu1{
+width:355px;
+margin: 0px 0px 0px 0px;
+padding:0px 0px 0px 0px;
+}
+#capnhatphieuthu1 table{
+width:355px;
+margin: 0px 0px 5px 0px;
+padding:0px 0px 5px 0px;
+}
+#capnhatphieuthu1 td{
+padding:0px 0px 10px 5px;
+}
+
+#capnhatphieuthu2{
+width:500px;
+background: white;
+margin: 10px 0px 0px 80px;
+padding: 0px auto;
+background: url(Img/xanhnen2.png);
+height:30px;
+}
+#capnhatphieuthu2 th:hover{
+background-color: pink;
+}
+#capnhatphieuthu2 table{
+width:500px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+border-collapse: collapse;
+}
+
+#capnhatphieuthu2 td{
+margin: 0px 0px 0px 1px;
+padding: 5px 0px 5px 0px;
+text-align: center;
+}
+#capnhatphieuthu2  h2{
+text-decoration: none;
+color: white;
+font-family:"Verdana",Sans-serif;
+text-decoration: none;
+font-size: 16px;
+margin: 0px 0px 0px 1px;
+padding: 3px 0px 3px 0px;
+text-align: center;
+}
+
+#capnhatphieuthu3 {
+width:700px;
+background: white;
+margin: 2px 0px 0px 80px;
+padding: 0px auto;
+background: white;
+}
+
+#capnhatphieuthu3  table{
+width:700px;
+margin: 0px auto 0px auto;
+padding: 0px 0px 0px 0px;
+border-collapse: collapse;
+background: white;
+
+}
+#capnhatphieuthu3 th:hover{
+background-color: pink;
+}
+#capnhatphieuthu3 td{
+margin: 0px 0px 0px 1px;
+padding: 5px 0px 5px 0px;
+border:1px solid gray;
+}
+#capnhatphieuthu3  th{
+margin: 0px 0px 0px 1px;
+padding: 5px 0px 5px 0px;
+border:1px solid gray;
+}
